@@ -1,5 +1,5 @@
 def click():
-    print('click')
+    print('Click')
     return click
 
 click()
