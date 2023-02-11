@@ -1,1 +1,1 @@
-click
+print('click')
