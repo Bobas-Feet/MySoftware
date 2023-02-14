@@ -5,7 +5,7 @@ pipeline {
         stage('Call on you') {
             steps {
                 sh 'python.py'
-                click()
+                Click()
                 Welcome()                                
             }
         }
