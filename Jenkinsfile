@@ -2,10 +2,11 @@ pipeline {
     agent any
 
     stages {
-        stage('NewButton') {
+        stage('Call on you') {
             steps {
                 sh 'python.py'
-                                 
+                click()
+                Welcome()                                
             }
         }
     }
